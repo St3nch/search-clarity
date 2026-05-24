@@ -31,11 +31,11 @@ These block launch.
 | 1 | Build Maplewood Candle Co. sample report | `samples/maplewood-candle-co-listing-visibility-audit.md` and PDF | SearchClarity | Not started |
 | 2 | Choose and build report production pipeline | Markdown/Pandoc/CSS or chosen equivalent | SearchClarity | Not started |
 | 3 | Build branded report template | Audit report template + stylesheet | SearchClarity | Not started |
-| 4 | Build minimal tracker system | `r06-minimal-tracker-system.md` and spreadsheet | SearchClarity | Not started |
-| 5 | Create the actual 8 tracker sheets | Customer, Order, Report, Action Plan, Keyword, Market Signal, Generalized Observation, Consent | SearchClarity | Not started |
-| 6 | Write Fiverr gig copy | `r07-fiverr-gig-copy.md` | SearchClarity | Not started |
-| 7 | Write Fiverr buyer intake forms | `r08-buyer-intake-forms.md` | SearchClarity | Not started |
-| 8 | Write first-order fulfillment SOP | `r09-order-fulfillment-sop.md` | SearchClarity | Not started |
+| 4 | Build minimal tracker system | `r07-minimal-tracker-system.md` and tracker workbook template | SearchClarity | Complete |
+| 5 | Create the actual 8 tracker sheets | Customers, Orders, Reports, Action Plan Items, Keyword Observations, Raw Market Signals, Generalized Observations, Consent Records | SearchClarity | Complete |
+| 6 | Write Fiverr gig copy | `r08-fiverr-gig-copy.md` | SearchClarity | Not started |
+| 7 | Write Fiverr buyer intake forms | `r09-buyer-intake-forms.md` | SearchClarity | Not started |
+| 8 | Write first-order fulfillment SOP | `r10-order-fulfillment-sop.md` | SearchClarity | Not started |
 | 9 | Build QC form from r04 checklist | One-page checklist or tracker tab | SearchClarity | Not started |
 | 10 | Reconcile launch pricing | One source-of-truth pricing section/doc | SearchClarity | Not started |
 
@@ -97,20 +97,22 @@ Use these for the first tracker:
 
 | Field | Purpose |
 |---|---|
-| signal_id | Unique ID |
+| signal_id | Unique raw signal ID |
 | date_observed | When it was noticed |
 | source_report_type | Which paid report surfaced it |
 | source_context | General context, no private client details |
 | niche | Broad niche/category |
 | product_category | Product/service category |
 | marketplace | Etsy, Shopify, Pinterest, Google, Fiverr, etc. |
+| buyer_intent | What buyers appear to want, if visible |
 | keyword_cluster | Main keyword group if known |
 | why_it_stood_out | Analyst explanation |
-| evidence_summary | High-level evidence only |
-| recommended_next_step | Ignore / Watch / Send to Neon Ronin |
-| status | Logged / Sent to Neon Ronin / Closed |
+| evidence_summary | High-level evidence only, no private client details |
+| routing_label | Ignore / Watch / Research Later / Research Next / Urgent Review |
+| confidence | Low / Medium / High |
+| recommended_next_step | Ignore / Watch / Hand Off / Recheck Later |
+| handoff_status | Not Logged / Logged / Sent to Neon Ronin / Accepted / Rejected / Converted |
 | notes | Internal note |
-
 ### Neon Ronin scoring fields
 
 Neon Ronin can later score:
@@ -138,11 +140,11 @@ But that scoring belongs in the Neon Ronin strategy layer, not in the paid-repor
 
 | File | Purpose |
 |---|---|
-| `r06-minimal-tracker-system.md` | Spreadsheet/tracker system from day one |
-| `r07-fiverr-gig-copy.md` | Final copy for first 3 Fiverr gigs |
-| `r08-buyer-intake-forms.md` | Copy-paste buyer requirements for Fiverr |
-| `r09-order-fulfillment-sop.md` | Manual order workflow from intake to delivery |
-| `r10-report-production-pipeline.md` | Markdown/PDF/report styling workflow |
+| `r07-minimal-tracker-system.md` | Spreadsheet/tracker system from day one |
+| `r08-fiverr-gig-copy.md` | Final copy for first 3 Fiverr gigs |
+| `r09-buyer-intake-forms.md` | Copy-paste buyer requirements for Fiverr |
+| `r10-order-fulfillment-sop.md` | Manual order workflow from intake to delivery |
+| `r06-report-production-pipeline.md` | Markdown/PDF/report styling workflow |
 
 ### Next launch docs
 
@@ -197,12 +199,12 @@ But that scoring belongs in the Neon Ronin strategy layer, not in the paid-repor
 2. Build sample report source file.
 3. Build PDF pipeline and CSS.
 4. Export sample PDF.
-5. Build tracker spreadsheet and r06 doc.
-6. Trim r05 so it captures signals only.
+5. Build tracker workbook template and r07 doc. **Done.**
+6. Trim r05 so it captures signals only. **Done.**
 7. Create Neon Ronin r10 for scoring/strategy layer.
-8. Write Fiverr gig copy.
-9. Write buyer intake forms.
-10. Write fulfillment SOP.
+8. Write Fiverr gig copy (`r08-fiverr-gig-copy.md`).
+9. Write buyer intake forms (`r09-buyer-intake-forms.md`).
+10. Write fulfillment SOP (`r10-order-fulfillment-sop.md`).
 11. Build SearchClarity.co minimum viable site plan.
 12. Produce Fiverr gallery/video assets.
 13. Launch first Audit gig.
@@ -223,3 +225,5 @@ That means:
 - Neon Ronin's Observatory scores opportunities across SearchClarity and future gig businesses.
 
 The next move is execution, not another strategy pass.
+
+

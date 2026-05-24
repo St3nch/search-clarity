@@ -415,17 +415,18 @@ r03-first-5-gig-report-strategy-review.md
 r04-comprehensive-seo-report-system.md
 r05-client-report-history-and-market-signal-capture.md
 r06-report-production-pipeline.md
+r07-minimal-tracker-system.md
 ```
 
-Next SearchClarity doc should be operational, not strategic:
+Next SearchClarity doc should be launch copy, not more strategy:
 
 ```text
-r07-minimal-tracker-system.md
+r08-fiverr-gig-copy.md
 ```
 
 Purpose:
 
-> Define the actual spreadsheet/tracker tabs and fields SearchClarity uses from order #1.
+> Define the first Fiverr gig copy, packages, positioning, and buyer-facing proof language for the Etsy Listing Visibility Audit.
 
 The Neon Ronin observatory and strategy layer belongs in:
 
@@ -452,3 +453,4 @@ Neon Ronin powers the deeper agent, DB, observatory, and strategy layer.
 The main brand promise is:
 
 > Clear, evidence-based seller visibility reports with human-reviewed recommendations, reasoning, caveats, and practical next steps.
+
