@@ -92,7 +92,7 @@ Audit up to 3 Etsy listings with keyword, title, tag, and action-plan review.
 ### Premium
 
 ```text
-Audit up to 5 listings with deeper keyword, competitor, and walkthrough notes.
+Audit up to 5 listings with deeper keyword and competitor context.
 ```
 
 Verify package description character limits in Fiverr UI.
@@ -114,14 +114,14 @@ Depending on your package, I review:
 - description clarity
 - buyer intent and search language
 - visible shop/listing trust signals
-- competitor/listing pattern observations
+- competitor/listing pattern observations, where included
 - priority action steps
 
 You receive a professional PDF report, not a cheap keyword dump. The goal is to show what is clear, what is weak, and what changes are worth testing first.
 
 Important: I do not guarantee specific Etsy rankings, traffic, or sales. This is a diagnostic visibility audit with recommendations based on visible listing factors and current marketplace best practices.
 
-Order now and send your Etsy shop/listing URLs through the buyer requirements.
+Choose the package that fits your listing count and send your URLs through the buyer requirements.
 ```
 
 Before publish:
@@ -162,13 +162,13 @@ Basic covers 1 listing, Standard covers up to 3 listings, and Premium covers up 
 ### FAQ 5 - What does the revision include?
 
 ```text
-A revision covers clarification or correction within the original audit scope. It does not include reviewing new listings or implementing changes inside Etsy.
+A revision covers clarification within the original audit scope. If I make a mistake, I will correct it without counting it against your included revision.
 ```
 
 ### FAQ 6 - Can you rewrite my title and tags too?
 
 ```text
-This gig is an audit and recommendation report. Full title/tag rewriting may be offered as a separate service or custom add-on later.
+This gig is an audit and recommendation report. Full title/tag rewriting is not included in this order.
 ```
 
 ### FAQ 7 - Do you work with digital products or POD?
@@ -189,47 +189,108 @@ Verify FAQ character limits in Fiverr UI before publishing.
 
 ## Gig Extra Copy Draft
 
-### 7-day implementation check-in
+No launch gig extra is approved yet.
 
-```text
-I will review your planned changes after 7 days and provide a short Loom/checklist follow-up.
-```
+Do not include the old implementation follow-up extra.
 
-Important:
-
-- do not guarantee results
-- do not imply implementation is included
-- verify Loom/external link handling in Fiverr rules before using
+The 60-90 Day Post-Implementation Visibility Review is a future separate gig or custom-offer candidate, not an add-on inside the original audit order.
 
 ---
 
 ## Gallery Image Copy Drafts
 
+Fiverr image text must stay at or below 10 words per image.
+
 ### Image 1 - Main thumbnail
+
+Primary option:
 
 ```text
 Etsy Listing Visibility Audit
-Human-reviewed PDF report
-Clear SEO recommendations, no ranking promises
 ```
+
+Supporting visual should show a polished report cover mockup. Do not add ranking, traffic, or sales promises.
+
+Alternate short text options:
+
+```text
+Professional Etsy SEO Audit
+```
+
+```text
+Human-Reviewed PDF Report
+```
+
+---
 
 ### Image 2 - Report preview
 
+Primary option:
+
 ```text
-See what is clear, weak, and worth testing first
-Title • Tags • Keywords • Description • Action Plan
+Sample Audit Preview
 ```
+
+Supporting visual should show a labeled Maplewood sample report page.
+
+Alternate short text options:
+
+```text
+See The Report Structure
+```
+
+```text
+Professional PDF Preview
+```
+
+---
 
 ### Image 3 - What is reviewed
 
+Primary option:
+
 ```text
-What I review:
-1. Title structure
-2. Keyword coverage
-3. Buyer clarity
-4. Listing description
-5. Priority next steps
+Clear Findings. Prioritized Actions.
 ```
+
+Supporting visual should show a clean audit-scope / what-you-get graphic. Avoid cluttered lists and do not include pricing until pricing is locked.
+
+Alternate short text options:
+
+```text
+Title. Tags. Description. Action Plan.
+```
+
+```text
+What Your Audit Covers
+```
+
+---
+
+## Video Copy Boundary
+
+The Fiverr gallery intro video and the customer report walkthrough are different things.
+
+| Video type | Purpose | Copy rule |
+|---|---|---|
+| Fiverr gallery intro video | Marketing/proof asset | Show the sample report and explain the service. Do not imply it is included with the order. |
+| Customer report walkthrough | Paid deliverable feature | Mention only if the package/channel actively includes it. |
+
+---
+
+## Gallery Asset Rules
+
+- [ ] Use original/owned visuals only
+- [ ] Keep each image at or below 10 words of text
+- [ ] No QR codes
+- [ ] No external URLs
+- [ ] No SearchClarity.co URL in launch images or sample PDF preview pages
+- [ ] No contact information
+- [ ] No Fiverr badges or fake trust seals
+- [ ] No ranking/sales/traffic guarantees
+- [ ] No stock-photo sludge
+- [ ] Label sample/fictional report content clearly
+- [ ] Name image/PDF files with relevant keywords before upload
 
 ---
 
@@ -254,6 +315,24 @@ If anything in the report is unclear, you can use your included revision to ask 
 Thank you for choosing SearchClarity.
 ```
 
+Optional sentence if a video walkthrough is included later:
+
+```text
+If your package includes a short video walkthrough, I included the short video walkthrough as well.
+```
+
+---
+
+## Neutral Feedback Request
+
+Use only if allowed by Fiverr rules and only after delivery:
+
+```text
+If the report was helpful, honest feedback on Fiverr is appreciated.
+```
+
+Do not ask for 5 stars, positive reviews, review edits, or review-before-correction behavior.
+
 ---
 
 ## Pre-Publish Copy QC
@@ -270,6 +349,8 @@ Thank you for choosing SearchClarity.
 - [ ] Package scope matches offer spec
 - [ ] Pricing matches pricing source of truth
 - [ ] Sample PDF and gallery assets match claims
+- [ ] Gallery image text is 10 words or fewer per image
+- [ ] No external website/sample-report link appears on the gig page or gallery assets
 
 ---
 

@@ -119,6 +119,7 @@ These docs were recently drafted and must be reviewed before being treated as fi
 | `docs/operations/fiverr/README.md` | Fiverr folder structure and rules | draft, review needed |
 | `docs/operations/fiverr/platform-operations-research.md` | Fiverr platform rules and implications | draft from research, review needed |
 | `docs/operations/fiverr/ui-verification-log.md` | Live Fiverr UI unknowns to verify | draft, needs live UI checks |
+| `docs/operations/fiverr/manual-ui-verification-checklist.md` | Required manual Fiverr UI checks before publishing | draft, required before publish |
 | `docs/operations/fiverr/buyer-requirements.md` | Draft Fiverr buyer intake questions | draft, review needed |
 | `docs/operations/fiverr/order-flow-and-delivery-sop.md` | Fiverr-specific order/delivery SOP | draft, review needed |
 | `docs/operations/fiverr/etsy-listing-visibility-audit-gig-setup.md` | Fiverr setup checklist for first gig | draft, review needed |
@@ -132,6 +133,10 @@ These docs were recently drafted and must be reviewed before being treated as fi
 | `docs/operations/records-and-consent/recordkeeping-and-consent.md` | Records and consent rules | draft, review needed |
 | `docs/operations/website/README.md` | Website operations folder rules | draft, review needed |
 | `docs/operations/website/searchclarity-co-website-plan.md` | SearchClarity.co website plan, stack, SEO/GEO/schema/blog strategy | draft, review needed |
+| `docs/operations/website/searchclarity-co-website-roadmap.md` | Future dedicated website build roadmap | planned |
+| `docs/operations/website/searchclarity-site-architecture.md` | Future sitemap, URL architecture, service/channel page structure | planned |
+| `docs/operations/website/searchclarity-glossary-and-resource-plan.md` | Future glossary/resource plan for report terminology and explainer pages | planned |
+| `docs/operations/website/searchclarity-report-to-website-linking-standard.md` | Future standard for linking report terms to public SearchClarity resources | planned |
 | `docs/operations/brand-presence/README.md` | Brand presence operations folder rules | draft, review needed |
 | `docs/operations/brand-presence/brand-and-external-presence-plan.md` | Branding, social profiles, external presence, and short-form distribution plan | draft, review needed |
 
@@ -240,14 +245,47 @@ not_started
 ### Required Decisions
 
 - Final package structure.
-- Final launch pricing.
+- Final launch pricing after Fiverr competitor research.
 - Final delivery times.
 - Final revision counts.
-- Whether Premium includes Loom.
-- Whether the 7-day implementation check-in extra launches on day one.
+- Whether Premium prepares for a future short video report walkthrough.
+- Whether a post-delivery follow-up/re-audit becomes a separate future service.
 - Whether competitor observations are Standard or Premium only.
-- Final page-count promises, if any.
+- Internal page-count guidance, with no public page-count promises unless deliberately approved later.
 - What Basic includes without becoming underpriced custom consulting.
+
+### Pricing Blocker
+
+Pricing is not locked yet.
+
+Manual Fiverr tier verification is required before final package prices are approved.
+
+Reason:
+
+- crawler/search research confirmed Basic/start prices better than full tier pricing
+- Fiverr Standard/Premium tier details often require logged-in manual review
+- early manual checks show large tier spread, such as Kristen around $120 Premium and Twocakes around $350 Premium
+- SearchClarity should not launch at a price that looks weak, confused, or mispositioned against real package comparisons
+
+Required manual data collection:
+
+- capture competitor Basic/Standard/Premium prices
+- capture package scope for each tier
+- capture screenshots or PDF evidence where possible
+- compare SearchClarity package-to-package before locking pricing
+
+Until this is done, pricing remains:
+
+```text
+unresolved / pending manual Fiverr tier verification
+```
+
+### Pricing Principles To Confirm
+
+- SearchClarity pricing should not be based only on production time.
+- Pricing should reflect buyer value, report quality, human review, delivery polish, claim safety, and market positioning.
+- Agent-assisted production may improve margins later, but it should not push SearchClarity into commodity pricing.
+- Do not race to the $5-$20 Fiverr keyword-dump market.
 
 ### Required Docs
 
@@ -255,12 +293,26 @@ not_started
 - `docs/operations/pricing/pricing-source-of-truth.md`
 - `docs/operations/quality-control/outcome-guarantee-language-policy.md`
 
+### Companion Gig Notes
+
+- Companion gigs require mini specs before launch.
+- Candidate near-launch companion gigs: Etsy Title and Tag Rewrite, Etsy Keyword Research Pack.
+- Candidate follow-up product: 60-90 Day Post-Implementation Visibility Review.
+- Companion gigs may be ordered separately or work better after an audit, but they must not be buried inside the main audit package.
+
+### Release List Work
+
+- Pick which companion gigs are launch, near-launch, later, or parked.
+- Build a release list once pricing/package scope is locked.
+- Every launch or near-launch gig needs its own mini spec.
+
 ### Exit Criteria
 
 - First offer scope is stable.
 - Pricing is stable.
 - Package table is stable.
 - Out-of-scope boundaries are clear.
+- Companion gig release-list decisions are recorded.
 - No ranking/sales guarantees exist in offer language.
 
 ---
@@ -301,6 +353,8 @@ Caveat:
 - Remove generic filler.
 - Ensure no outcome guarantees.
 - Ensure sample is clearly fictional.
+- Add useful report visuals where they clarify findings, such as a priority matrix, keyword/theme coverage map, listing clarity scorecard, or competitor comparison table.
+- Report visuals/graphs should explain observations, not imply fake precision.
 - Ensure first three pages will sell the report when previewed on Fiverr.
 
 ### Exit Criteria
@@ -335,6 +389,7 @@ docs/r06-report-production-pipeline.md
 - Build or refine stylesheet.
 - Test export on Maplewood sample.
 - Confirm PDF formatting.
+- Define a report graph/visual standard.
 - Confirm filenames and export locations.
 - Confirm first three pages work as Fiverr gallery preview.
 
@@ -369,6 +424,7 @@ not_started
 
 - `docs/operations/fiverr/platform-operations-research.md`
 - `docs/operations/fiverr/ui-verification-log.md`
+- `docs/operations/fiverr/manual-ui-verification-checklist.md`
 - `docs/operations/fiverr/buyer-requirements.md`
 - `docs/operations/fiverr/etsy-listing-visibility-audit-gig-setup.md`
 - `docs/operations/fiverr/gig-copy.md`
@@ -378,11 +434,14 @@ not_started
 
 - Create/prepare Fiverr account if proceeding.
 - Verify live Fiverr UI constraints.
+- Complete the manual Fiverr UI verification checklist or record blockers before publish.
 - Record findings in UI verification log.
 - Finalize title, tags, description, FAQ, packages, buyer requirements.
 - Prepare gallery images.
 - Prepare sample PDF upload.
-- Decide whether to use video at launch.
+- Decide whether to use video at launch or park it as a future Premium feature.
+- Verify video walkthrough hosting/captions/transcript options.
+- If video is used, require a recording outline, internal transcript, transcript/QC review, and captions or an equivalent accessible text option.
 - Review all assets against outcome-guarantee policy.
 
 ### Exit Criteria
@@ -602,6 +661,10 @@ not_started
 ### Required Docs
 
 - `docs/operations/website/searchclarity-co-website-plan.md`
+- `docs/operations/website/searchclarity-co-website-roadmap.md` later
+- `docs/operations/website/searchclarity-site-architecture.md` later
+- `docs/operations/website/searchclarity-glossary-and-resource-plan.md` later
+- `docs/operations/website/searchclarity-report-to-website-linking-standard.md` later
 - `docs/operations/quality-control/outcome-guarantee-language-policy.md`
 - `docs/operations/services/etsy-listing-visibility-audit-offer-spec.md`
 - `docs/operations/pricing/pricing-source-of-truth.md`
@@ -618,6 +681,9 @@ not_started
 - website stack/hosting decision
 - initial sitemap and entity architecture
 - analytics/Search Console plan
+- report-to-website linking approach
+- glossary/resource page plan
+- website sub-roadmap
 
 ### Exit Criteria
 
@@ -663,6 +729,24 @@ not_started
 ---
 
 ## Phase 11 - Future Services
+
+### Future AI/GEO Service Homework
+
+Potential future services to research after launch path stabilizes:
+
+- AI Search / LLM Visibility Readiness Audit
+- GEO Mentions And Citations Readiness Audit
+- Ecommerce AI Visibility Snapshot
+- Schema / Structured Data Readiness Audit
+- Entity Footprint Review
+
+Rules:
+
+- Do not guarantee AI mentions, citations, rankings, or inclusion.
+- Define what can actually be observed before selling the service.
+- Research tools/data sources and competitor pricing before writing gig copy.
+- Treat this as future SearchClarity service planning, not Neon Ronin platform doctrine.
+
 
 ### Goal
 

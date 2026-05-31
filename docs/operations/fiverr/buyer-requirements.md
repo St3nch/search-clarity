@@ -3,7 +3,7 @@
 ## Status
 
 ```text
-draft
+draft / subject_to_fiverr_ui_limits
 ```
 
 ## Purpose
@@ -30,6 +30,20 @@ Do not ask for Etsy login credentials.
 
 Do not ask for off-platform contact information.
 
+Do not ask for private buyer/customer data.
+
+The ideal intake set below may need to be reduced during live Fiverr setup if Fiverr question limits, prompt limits, answer limits, or upload limits are too restrictive.
+
+---
+
+## Buyer-Facing Safety Note
+
+Include this note if Fiverr allows enough space:
+
+```text
+Please do not send Etsy login credentials, passwords, 2FA codes, private buyer/customer data, or off-platform contact information. I only need public Etsy URLs and any optional screenshots or listing details you choose to provide.
+```
+
 ---
 
 ## Recommended Requirement Set
@@ -51,7 +65,7 @@ Yes
 Prompt:
 
 ```text
-Please paste your Etsy shop URL.
+Please paste your Etsy shop URL. Please make sure the shop is public/viewable.
 ```
 
 Purpose:
@@ -79,7 +93,7 @@ Yes
 Prompt:
 
 ```text
-Please paste the Etsy listing URL(s) you want reviewed. Basic covers 1 listing, Standard covers up to 3, and Premium covers up to 5.
+Please paste the Etsy listing URL(s) you want reviewed. Basic covers 1 listing, Standard covers up to 3, and Premium covers up to 5. Please make sure the listings are active/publicly viewable.
 ```
 
 Purpose:
@@ -145,7 +159,74 @@ Purpose:
 
 ---
 
-### Requirement 5 - Current keyword assumptions
+### Requirement 5 - Main audit goal
+
+Type:
+
+```text
+Multiple Choice or Free Text
+```
+
+Required:
+
+```text
+Yes
+```
+
+Prompt:
+
+```text
+What is your main goal for this audit?
+```
+
+Suggested options if Fiverr supports them:
+
+```text
+Improve listing clarity
+Review keyword/tag coverage
+Understand why a listing may not be getting views
+Compare visible marketplace positioning
+Get prioritized next steps
+Not sure / I want a general audit
+Other
+```
+
+Purpose:
+
+- makes the report feel more specific to the buyer
+- helps prioritize the executive summary and recommendations
+- reduces generic report risk
+
+---
+
+### Requirement 6 - Biggest current concern
+
+Type:
+
+```text
+Free Text
+```
+
+Required:
+
+```text
+No
+```
+
+Prompt:
+
+```text
+Optional: What is your biggest concern with these listings right now? For example: low views, low favorites, low sales, unsure about keywords, unsure about title/tags, unsure about photos/thumbnail, new shop/no data yet, etc.
+```
+
+Purpose:
+
+- gives context for the report
+- helps address the buyer's real concern without promising outcomes
+
+---
+
+### Requirement 7 - Current keyword assumptions
 
 Type:
 
@@ -172,7 +253,35 @@ Purpose:
 
 ---
 
-### Requirement 6 - Etsy Stats screenshots
+### Requirement 8 - Current title and tags
+
+Type:
+
+```text
+Free Text
+```
+
+Required:
+
+```text
+No
+```
+
+Prompt:
+
+```text
+Optional: If you want tag-specific feedback, paste the current title and tags for each listing. This is helpful if tags are not visible from the public listing.
+```
+
+Purpose:
+
+- avoids needing shop login
+- improves tag-specific feedback when public data is incomplete
+- helps the audit stay accurate
+
+---
+
+### Requirement 9 - Etsy Stats screenshots
 
 Type:
 
@@ -200,7 +309,35 @@ Purpose:
 
 ---
 
-### Requirement 7 - Shop stage
+### Requirement 10 - Competitor or similar listings for context
+
+Type:
+
+```text
+Free Text
+```
+
+Required:
+
+```text
+No
+```
+
+Prompt:
+
+```text
+Optional: Are there 1-3 competitor or similar listings you admire or want considered for context? I will not copy competitors. This only helps understand positioning and buyer expectations.
+```
+
+Purpose:
+
+- gives marketplace context
+- supports competitor/context observations where package scope allows
+- prevents competitor copying expectations
+
+---
+
+### Requirement 11 - Shop stage
 
 Type:
 
@@ -236,7 +373,7 @@ Purpose:
 
 ---
 
-### Requirement 8 - Listings to avoid
+### Requirement 12 - Listings or topics to avoid
 
 Type:
 
@@ -263,16 +400,53 @@ Purpose:
 
 ---
 
+### Requirement 13 - Trademark/IP reminder
+
+Type:
+
+```text
+Checkbox or Multiple Choice
+```
+
+Required:
+
+```text
+Yes if Fiverr supports it cleanly
+```
+
+Prompt:
+
+```text
+Please confirm you will not ask SearchClarity to recommend trademarked brand, character, celebrity, or franchise keywords unless you have the right to use them.
+```
+
+Purpose:
+
+- discourages trademark-risky keyword requests
+- supports the outcome-guarantee and safety policy
+- protects report quality
+
+---
+
 ## Backup Short Version
 
 If Fiverr UI limits prevent the full requirement set, use this shorter set:
 
 1. Etsy shop URL
 2. Listing URL(s) to review
+3. What products do you sell?
+4. Who is the target buyer?
+5. Main goal / biggest concern
+6. Shop stage
+7. Optional screenshots or title/tags
+
+If even shorter is required, keep these minimum fields:
+
+1. Etsy shop URL
+2. Listing URL(s) to review
 3. Product summary
 4. Target buyer
-5. Shop stage
-6. Optional Etsy Stats screenshots
+5. Main goal for the audit
 
 ---
 
@@ -290,6 +464,7 @@ Do not ask for:
 - supplier details
 - profit margins
 - full analytics exports unless clearly needed and privacy-safe
+- login access to Etsy or any third-party tool
 
 ---
 
@@ -310,11 +485,15 @@ If required intake is incomplete:
 - [ ] Shop URL opens
 - [ ] Listing URLs open
 - [ ] Listing count matches package scope
+- [ ] Listings are active/publicly viewable
 - [ ] Product type is understandable
 - [ ] Target buyer is provided
+- [ ] Main audit goal is provided
 - [ ] No credentials were requested
 - [ ] No off-platform contact was requested
 - [ ] Optional screenshots do not expose private customer data
+- [ ] Optional competitor/context links do not create copying expectations
+- [ ] Trademark/IP reminder is included or intentionally omitted due to Fiverr UI limits
 
 ---
 
@@ -326,7 +505,10 @@ Before publishing, verify in `ui-verification-log.md`:
 - buyer free-text answer limits
 - attached-file upload limits
 - multiple-answer option limits
-- whether all 8 questions fit cleanly
+- checkbox/acknowledgment support
+- whether all 13 ideal questions fit cleanly
+- whether the backup short version is required
+- whether required/optional settings behave as expected
 
 ---
 

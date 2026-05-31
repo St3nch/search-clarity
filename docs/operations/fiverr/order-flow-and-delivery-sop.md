@@ -26,6 +26,7 @@ Use this document for Fiverr-specific timing, order status, delivery, revision, 
 All customer communication stays on Fiverr.
 The order timer starts after buyer requirements are submitted.
 No customer-facing delivery happens before QC passes.
+No customer-facing delivery happens without human approval.
 No outcome guarantees are included in delivery messages.
 ```
 
@@ -84,7 +85,7 @@ Once requirements are submitted, the order enters In Progress and the delivery t
 
 Immediate actions:
 
-- acknowledge order within target of 1 hour where possible
+- acknowledge the order as soon as practical, ideally within the same business day or within the response-time standard chosen for Fiverr
 - check URLs and scope
 - check package tier
 - check required information
@@ -93,7 +94,7 @@ Immediate actions:
 Acknowledgement template:
 
 ```text
-Thanks — I received your requirements and will review the shop/listing details now. If anything is missing or unclear, I’ll ask here in the order thread before starting the audit.
+Thanks - I received your requirements and will review the shop/listing details now. If anything is missing or unclear, I will ask here in the order thread before starting the audit.
 ```
 
 ---
@@ -107,14 +108,21 @@ Check:
 - listing count fits package
 - product summary is understandable
 - target buyer is provided
+- main audit goal is provided
+- biggest current concern is reviewed if provided
+- optional current title/tags are reviewed if provided
+- optional competitor/context links are reviewed if provided
 - optional screenshots are safe to use
 - no private buyer/customer data was uploaded
 - no login credentials were requested or needed
+- no off-platform contact information was requested or needed
+- no trademark/IP-risky keyword request is being made
+- listings are active/publicly viewable
 
 If information is missing:
 
 ```text
-Thanks — I can start once I have one missing detail: [specific item]. Please send it here in the order thread so I can keep the audit within scope.
+Thanks - I can start once I have one missing detail: [specific item]. Please send it here in the order thread so I can keep the audit within scope.
 ```
 
 If missing info threatens deadline, use Fiverr's extension request flow.
@@ -127,6 +135,7 @@ Follow the general fulfillment SOP.
 
 For Fiverr, be extra strict on deadline risk:
 
+- create the internal work packet before research begins
 - do not wait until the final hours to export PDF
 - run QC before delivery day where possible
 - request extension early if buyer delay or scope issue creates risk
@@ -145,6 +154,13 @@ Before clicking Deliver Now:
 - delivery message prepared
 - no off-platform contact included
 - no guarantee language included
+- no public page-count promise used unless explicitly approved
+- short video report walkthrough is included only if active for the package/channel
+- if video is included, outline/talking points were reviewed
+- if video is included, internal transcript was generated and reviewed
+- if video is included, captions or equivalent accessible text option is available
+- if video is included, video link/file works
+- if video is included, Fiverr allows the link/file delivery method
 
 ---
 
@@ -156,10 +172,10 @@ Attach:
 final PDF report
 ```
 
-Optional, if included in package:
+Optional, if active for the package/channel and verified as Fiverr-compliant:
 
 ```text
-Loom walkthrough link or file, only if allowed and channel-compliant
+short video report walkthrough link or file
 ```
 
 Be careful with external links. If using Loom or another tool, verify Fiverr allows it for delivery and that it does not move business off-platform.
@@ -187,11 +203,25 @@ If anything in the report is unclear, you can use your included revision to ask 
 Thank you for choosing SearchClarity.
 ```
 
+Optional sentence if video is included:
+
+```text
+If your package includes a short video walkthrough, I included the video link/file as well.
+```
+
 Adjust tone as needed, but do not remove the no-guarantee boundary.
 
 ---
 
-## Stage 7 - Revisions
+## Stage 7 - Revisions And Corrections
+
+A customer revision is a buyer-requested clarification or adjustment within the original scope.
+
+A SearchClarity correction is a fix for a SearchClarity mistake.
+
+SearchClarity corrections do not count against the buyer's included revision count.
+
+### Customer Revisions
 
 If buyer requests a revision:
 
@@ -206,9 +236,8 @@ Actions:
 In-scope Fiverr revision examples:
 
 - clarify report wording
-- fix missed package-scope listing
-- correct formatting/export problem
-- expand reasoning for a recommendation
+- explain a recommendation more clearly
+- adjust wording within the originally purchased scope
 
 Out-of-scope Fiverr revision examples:
 
@@ -217,12 +246,33 @@ Out-of-scope Fiverr revision examples:
 - rewrite all listing copy unless package includes it
 - provide ongoing coaching
 - guarantee results
+- add new competitor research beyond package scope
 
 Out-of-scope response template:
 
 ```text
-Thanks for the note. That request is outside the scope of this audit because it would require [reason]. I can clarify anything inside the delivered report as part of the included revision, but reviewing new listings or doing implementation work would need a separate order/custom scope.
+Thanks for the note. That request is outside the scope of this audit because it would require [reason]. I can clarify anything inside the delivered report as part of the included revision, but reviewing new listings, adding new research, or doing implementation work would need a separate order/custom scope.
 ```
+
+### SearchClarity Corrections
+
+Correction examples:
+
+- wrong listing reviewed
+- promised section missing
+- PDF export broken
+- incorrect URL/reference
+- formatting issue that makes the report hard to read
+- typo/error that changes meaning
+- video link/file issue if video was included
+
+Correction handling:
+
+1. Apologize briefly and professionally.
+2. Fix the issue.
+3. Redeliver through Fiverr.
+4. Record the correction reason and outcome.
+5. Do not count the correction against the buyer's included revision count.
 
 ---
 
@@ -234,9 +284,11 @@ After completion:
 
 - log final status
 - record revision outcome if any
+- record correction outcome if any
 - record buyer feedback if any
 - capture raw signal if relevant
 - update consent status if buyer permits public use/testimonial/case study
+- capture lessons learned or operational notes if useful
 
 ---
 
@@ -260,6 +312,7 @@ Common causes:
 - optional screenshots contain sensitive/private data
 - report production took longer than expected
 - export issue
+- video walkthrough production issue, if video is included
 
 ---
 
@@ -271,7 +324,7 @@ If cancellation request appears:
 - do not argue emotionally
 - review whether SearchClarity failed scope/timing
 - preserve all communication on Fiverr
-- decide whether to accept, revise, or dispute based on facts
+- decide whether to accept, revise, correct, or dispute based on facts
 - record the reason internally
 
 Potential cancellation reasons to track:
@@ -282,6 +335,9 @@ Potential cancellation reasons to track:
 - late delivery risk
 - report did not match perceived scope
 - buyer wanted implementation, not audit
+- buyer expected title/tag rewrite when only audit was purchased
+- buyer misunderstood revision scope
+- video/link delivery issue, if video was included
 
 Use these notes to improve gig description, FAQ, intake, or scope.
 
@@ -319,11 +375,16 @@ For each Fiverr order, record:
 - due date
 - delivery date
 - revision count
+- revision outcome if any
+- correction status/outcome if any
 - cancellation/dispute status
 - delivered file name/version
+- video delivery reference if any
+- transcript QC status if video was included
 - buyer feedback summary
 - raw signal capture status
 - consent/testimonial status
+- lessons learned / operational notes if any
 
 ---
 
@@ -337,6 +398,7 @@ This SOP does not:
 - define Neon Ronin workflows
 - authorize automation
 - authorize off-platform contact
+- authorize autonomous customer delivery
 
 ---
 
@@ -348,6 +410,9 @@ Update this SOP when:
 - Fiverr policy changes
 - first paid order is completed
 - first revision occurs
+- first SearchClarity correction occurs
 - first cancellation/dispute occurs
+- first video walkthrough test occurs
+- first Fiverr link/delivery issue occurs
 - delivery deadline assumptions change
 - buyer requirements change

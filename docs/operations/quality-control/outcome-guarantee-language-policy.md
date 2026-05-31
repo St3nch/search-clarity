@@ -21,6 +21,11 @@ It applies to:
 - sample reports
 - SearchClarity.co pages
 - social posts
+- YouTube scripts
+- YouTube Shorts scripts
+- Instagram Reels scripts
+- TikTok scripts
+- LinkedIn posts and videos
 - case studies
 - customer messages
 
@@ -40,6 +45,43 @@ SearchClarity may not guarantee rankings, traffic, sales, revenue, profit, marke
 SearchClarity sells professional visibility analysis and recommendations.
 
 It does not sell guaranteed outcomes.
+
+---
+
+## Policy Strictness
+
+SearchClarity uses a balanced language standard.
+
+Allowed:
+
+```text
+improve clarity
+improve keyword coverage
+improve listing structure
+improve buyer understanding
+strengthen title structure
+clarify product positioning
+identify visibility gaps
+recommend changes to test
+```
+
+Forbidden:
+
+```text
+improve rankings
+improve sales
+improve traffic
+boost rankings
+boost sales
+boost traffic
+guarantee visibility
+```
+
+The word "improve" is allowed only when tied to controllable factors such as clarity, structure, coverage, formatting, or buyer understanding.
+
+It must not be tied to outcomes SearchClarity cannot control.
+
+The word "boost" is banned in customer-facing SearchClarity language because it commonly implies inflated SEO performance claims.
 
 ---
 
@@ -79,6 +121,8 @@ rank higher guaranteed
 increase your sales guaranteed
 double your sales
 boost traffic by X%
+boost your SEO
+boost your rankings
 get X orders
 make X dollars
 profit guaranteed
@@ -97,6 +141,7 @@ this will make your listing show up
 this will increase traffic
 this will fix your Etsy SEO
 this will make Etsy favor your listing
+this will boost your listing
 ```
 
 ---
@@ -131,23 +176,43 @@ Approved phrasing examples:
 | I will boost your traffic | I will identify visibility gaps and improvement opportunities |
 | Fix your Etsy ranking | Review title, tags, description, and keyword coverage |
 | Beat your competitors | Compare visible listing patterns and identify positioning gaps |
+| Improve your Etsy sales | Improve listing clarity and keyword coverage |
+| Boost your Etsy SEO | Strengthen visible listing structure and buyer-language alignment |
 
 ---
 
-## Required Disclaimer Pattern
+## Required Disclaimer Patterns
 
 Every customer-facing service page, gig description, FAQ, and report template should include a clear disclaimer.
 
-Recommended short disclaimer:
+### Short Generic Disclaimer
+
+Use for service pages, marketplace profiles, social bios, short videos, and brief sales copy:
 
 ```text
-I do not guarantee specific rankings, traffic, or sales. This is a diagnostic report with human-reviewed recommendations based on visible listing factors and current marketplace best practices.
+I do not guarantee specific rankings, traffic, or sales. SearchClarity provides diagnostic, human-reviewed recommendations based on visible factors, platform guidance, and analyst observations.
 ```
 
-Recommended report disclaimer:
+### Etsy-Specific Disclaimer
+
+Use for Etsy Listing Visibility Audit reports, Etsy-focused Fiverr copy, and Etsy-specific customer messages:
 
 ```text
-This report is an analysis of visible listing, keyword, and marketplace factors. It provides recommendations to test, not guarantees of ranking, traffic, sales, revenue, or marketplace placement. Etsy and other platforms may change how they rank, display, or evaluate listings at any time.
+This report analyzes visible Etsy listing, keyword, and marketplace factors. It provides recommendations to test, not guarantees of ranking, traffic, sales, revenue, or marketplace placement. Etsy may change how it ranks, displays, or evaluates listings at any time.
+```
+
+### General Ecommerce / Website SEO Disclaimer
+
+Use for future Shopify, website, schema, GEO, or AI-search-readiness services:
+
+```text
+This report analyzes visible site, content, technical, and search-readiness factors. It provides recommendations to test, not guarantees of rankings, traffic, sales, revenue, citations, or AI-search inclusion. Search engines, marketplaces, and AI systems may change how they evaluate or display content at any time.
+```
+
+Avoid relying on the phrase "best practices" by itself. Prefer language such as:
+
+```text
+current platform guidance, visible listing factors, and analyst observations
 ```
 
 ---
@@ -168,7 +233,8 @@ Use careful verbs:
 
 - consider
 - test
-- improve
+- improve clarity
+- improve keyword coverage
 - clarify
 - strengthen
 - reduce risk
@@ -176,15 +242,100 @@ Use careful verbs:
 - make easier for buyers to understand
 - may help Etsy and buyers understand
 
-Avoid absolute verbs:
+Avoid absolute or outcome-heavy verbs:
 
 - guarantee
 - ensure
 - force
+- boost
 - make Etsy rank
 - get sales
 - fix the algorithm
 - beat everyone
+
+---
+
+## Before / After Example Policy
+
+Before/after examples are allowed only when they are fictional, anonymized with consent, or based on a customer-approved public-use example.
+
+Allowed:
+
+```text
+Before title:
+Handmade candle gift
+
+After title:
+Vanilla soy candle gift for cozy home decor and birthday gift box
+```
+
+Allowed if clearly caveated:
+
+```text
+This is an example of clearer title structure. It does not guarantee ranking, traffic, or sales.
+```
+
+Not allowed at launch:
+
+- before/after sales screenshots
+- before/after revenue screenshots
+- before/after ranking screenshots presented as proof of SearchClarity results
+- customer performance claims without explicit consent and strong attribution caveats
+
+Default launch rule:
+
+```text
+Use fictional or consented copy examples. Avoid performance-result before/after claims.
+```
+
+---
+
+## Case Study / Testimonial Outcome-Claim Policy
+
+SearchClarity may eventually use testimonials, case studies, or customer quotes only with permission.
+
+Allowed:
+
+```text
+The report helped me understand what to improve first.
+```
+
+```text
+The audit gave me clearer next steps for my Etsy listings.
+```
+
+```text
+SearchClarity identified gaps in my title and keyword coverage.
+```
+
+Risky and generally not allowed at launch:
+
+```text
+SearchClarity increased my sales by 40%.
+```
+
+```text
+This audit got me more orders.
+```
+
+```text
+I ranked higher after using this report.
+```
+
+If performance claims are ever used later, they must be:
+
+- customer-consented
+- clearly attributed to the customer
+- heavily caveated
+- not presented as typical results
+- not presented as proof that SearchClarity caused the outcome
+
+Default launch rule:
+
+```text
+Do not use public performance-result claims at launch.
+Use trust, clarity, usefulness, and professionalism testimonials instead.
+```
 
 ---
 
@@ -210,6 +361,62 @@ No Fiverr asset should promise:
 - account recovery
 - platform placement
 - algorithm manipulation
+
+---
+
+## Video And Social Content Rules
+
+This policy applies to all public SearchClarity content, including:
+
+- YouTube videos
+- YouTube Shorts
+- Instagram Reels
+- TikTok videos
+- LinkedIn posts
+- LinkedIn videos
+- X/Twitter posts
+- social profile bios
+- video captions
+- video overlays
+- thumbnails
+
+Short-form content may be more casual, but it must still avoid outcome guarantees.
+
+Allowed short-form hook examples:
+
+```text
+3 Etsy SEO myths sellers should stop believing
+```
+
+```text
+What an Etsy listing audit actually reviews
+```
+
+```text
+Why no Etsy SEO report can guarantee sales
+```
+
+```text
+Keyword dumps vs human-reviewed recommendations
+```
+
+Not allowed:
+
+```text
+This will get you more Etsy sales
+```
+
+```text
+Do this to rank #1 on Etsy
+```
+
+```text
+Boost your Etsy traffic fast
+```
+
+```text
+Guaranteed Etsy SEO trick
+```
 
 ---
 
@@ -270,12 +477,15 @@ Before any customer-facing asset is published or delivered:
 - [ ] No traffic guarantee
 - [ ] No sales/revenue guarantee
 - [ ] No algorithm-hack language
+- [ ] No customer-facing use of "boost"
 - [ ] No trademark-risky keyword bait
 - [ ] No fake certainty from directional data
-- [ ] Recommendations are framed as tests or improvements
+- [ ] Recommendations are framed as tests or improvements to controllable factors
 - [ ] Caveats are present
 - [ ] Human-reviewed language is accurate
 - [ ] Fiverr policy-sensitive language reviewed
+- [ ] Before/after examples are fictional, anonymized with consent, or customer-approved
+- [ ] No public performance-result claim is used at launch
 
 ---
 
@@ -301,3 +511,4 @@ Update this policy whenever:
 - a buyer misunderstands the service promise
 - a revision/refund issue reveals unclear language
 - a new SearchClarity service creates new claim risk
+- a new public channel creates new claim risk

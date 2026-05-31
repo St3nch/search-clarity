@@ -17,6 +17,7 @@ Related docs:
 ```text
 platform-operations-research.md
 ui-verification-log.md
+manual-ui-verification-checklist.md
 buyer-requirements.md
 gig-copy.md
 ../services/etsy-listing-visibility-audit-offer-spec.md
@@ -31,15 +32,19 @@ gig-copy.md
 Do not publish the Fiverr gig until:
 
 - offer scope is locked
-- pricing is reconciled
+- pricing is reconciled after manual Fiverr tier verification
+- manual Fiverr UI verification checklist is completed or blockers are recorded
+- seller verification / DSA requirements are complete or confirmed not required
 - buyer requirements fit the UI
 - sample PDF is ready
 - first three PDF pages are designed for Fiverr preview
 - gig images are ready
+- gallery image text is 10 words or fewer per image
 - outcome-guarantee language review passes
 - fulfillment SOP exists
 - QC checklist exists
 - UI unknowns are logged or resolved
+- no external website/sample-report links appear on the gig page or gallery assets
 
 ---
 
@@ -48,7 +53,8 @@ Do not publish the Fiverr gig until:
 - [ ] Create/login to Fiverr account on desktop
 - [ ] Verify email
 - [ ] Finalize display name
-- [ ] Upload profile photo/logo
+- [ ] Upload professional profile photo
+- [ ] Reserve logo/brand mark for reports, gallery assets, website, and brand materials
 - [ ] Complete professional title/tagline
 - [ ] Complete profile bio
 - [ ] Add languages
@@ -56,7 +62,7 @@ Do not publish the Fiverr gig until:
 - [ ] Add education/certifications if useful
 - [ ] Complete phone verification if prompted
 - [ ] Complete tax form if prompted
-- [ ] Complete personal/business verification if prompted
+- [ ] Complete personal/business verification / DSA verification if prompted
 - [ ] Connect payout method
 
 Notes:
@@ -69,11 +75,13 @@ Notes:
 
 ## Step 2 - Category And Service Type
 
-Target category:
+Candidate category:
 
 ```text
 Online Marketing > E-Commerce Marketing > E-Commerce SEO Services > Etsy
 ```
+
+Exact category path must be verified in the live Fiverr UI before publish.
 
 Before publishing:
 
@@ -87,7 +95,10 @@ Record findings in:
 
 ```text
 ui-verification-log.md
+manual-ui-verification-checklist.md
 ```
+
+Category cannot be changed after publish. Do not publish until the category/subcategory is approved.
 
 ---
 
@@ -107,7 +118,7 @@ Checks:
 - [ ] Does not promise outcomes
 - [ ] Acceptable as permanent URL slug
 
-Do not publish until the title/slug is approved.
+Do not publish until the title/slug is approved. The URL slug is created on first publish and does not update if the title changes later.
 
 ---
 
@@ -134,46 +145,61 @@ Checks:
 
 ## Step 5 - Package Setup
 
-Current candidate package table:
+Pricing is not locked.
+
+```text
+pricing_status: unresolved / pending manual Fiverr tier verification
+```
+
+Current candidate package scope:
 
 | Element | Basic | Standard | Premium |
 |---|---:|---:|---:|
-| Listings audited | 1 | 3 | 5 |
-| Keyword research depth | 10 keywords | 25 keywords | 50 keywords + competitor pull |
-| Approx report length | 10 pages | 16 pages | 24 pages |
-| Delivery | 3 days | 5 days | 7 days |
-| Revisions | 1 | 1 | 2 |
-| Price | $45 | $95 | $185 |
-| Loom walkthrough | No | No | Yes |
+| Listings audited | 1 | Up to 3 | Up to 5 |
+| Primary deliverable | PDF audit | PDF audit | PDF audit |
+| Keyword/theme observations | Focused | Expanded | Deeper + competitor/context where scoped |
+| Competitor/context observations | No dedicated competitor review | Light category context if relevant | Up to 3 visible competitor listing observations |
+| Customer report walkthrough | No | No | Not active at launch |
+| Delivery | Verify in Fiverr UI | Verify in Fiverr UI | Verify in Fiverr UI |
+| Revisions | 1 clarification revision | 1 clarification revision | 1 clarification revision |
+| Price | Pending | Pending | Pending |
+
+Do not use public page-count promises unless deliberately approved in the offer spec and pricing source of truth.
 
 Checks:
 
-- [ ] Pricing matches pricing source of truth
+- [ ] Pricing matches pricing source of truth after manual competitor tier verification
 - [ ] Package descriptions fit UI limit
-- [ ] Standard is positioned as hero package
+- [ ] Standard is positioned as hero package if pricing/scope supports it
 - [ ] Scope is clear
 - [ ] Delivery times are realistic
 - [ ] Revision count is limited
 - [ ] No unlimited revision option
+- [ ] No old Loom/premium video promise appears unless customer report walkthrough is active and QC-ready
 
 ---
 
-## Step 6 - Gig Extra
+## Step 6 - Gig Extra / Follow-Up Services
 
-Candidate extra:
+No launch gig extra is approved yet.
+
+Do not include:
 
 ```text
-7-day implementation check-in with Loom + checklist
-Price: +$45
-Adds: +3 days
+old implementation follow-up extra
 ```
+
+The 60-90 Day Post-Implementation Visibility Review is a future separate gig or custom-offer candidate.
+
+It must not be embedded inside the original audit order because Fiverr orders auto-complete after delivery review windows and are not mechanically suited for a delayed 60-90 day follow-up.
 
 Checks:
 
-- [ ] Extra is accepted by Fiverr UI
-- [ ] Extra does not imply guaranteed results
-- [ ] Extra does not create ongoing support obligation
-- [ ] Extra delivery time works with package delivery times
+- [ ] No follow-up service is included inside the original audit order
+- [ ] Any future custom offer is scoped separately
+- [ ] Any future follow-up gig has its own mini spec
+- [ ] No guaranteed results implied
+- [ ] No ongoing support obligation created
 
 ---
 
@@ -194,6 +220,7 @@ Checks:
 - [ ] No ranking/sales/traffic guarantees
 - [ ] CTA is clear
 - [ ] No off-platform contact request
+- [ ] No external website/sample-report link
 
 ---
 
@@ -216,7 +243,7 @@ Checks:
 - [ ] Each FAQ answer fits current UI cap
 - [ ] No guarantee language
 - [ ] Login question says no credentials needed
-- [ ] Revision question is clear
+- [ ] Revision question distinguishes buyer revisions from SearchClarity corrections
 - [ ] Scope question is clear
 - [ ] Package difference is clear
 
@@ -232,8 +259,11 @@ buyer-requirements.md
 
 Checks:
 
+- [ ] Requirement question-count limit verified in live UI
+- [ ] Prompt character limits verified in live UI
 - [ ] Required questions fit Fiverr UI
 - [ ] Mandatory vs optional fields are correct
+- [ ] Launch version uses a trimmed 5-7 mandatory-question intake if the ideal intake set is too heavy
 - [ ] No credentials requested
 - [ ] No off-platform contact requested
 - [ ] Screenshots are optional
@@ -245,24 +275,51 @@ Checks:
 
 Required:
 
-- [ ] Image 1: main thumbnail
-- [ ] Image 2: sample report preview/page spread
-- [ ] Image 3: what the audit checks
+- [ ] Image 1: main thumbnail / report-cover mockup
+- [ ] Image 2: labeled sample report preview/page spread
+- [ ] Image 3: audit-scope / what-you-get graphic
 - [ ] Sample PDF attached
 
 Optional:
 
-- [ ] Video, 60-75 seconds max if used
-- [ ] Second PDF sample excerpt if useful
+- [ ] Fiverr gallery intro video, launch candidate only if polished enough to outperform Image 1
+- [ ] Second PDF sample excerpt if useful later
 
 Asset checks:
 
 - [ ] Images are 1280 x 769 or otherwise accepted by Fiverr
 - [ ] Images are under file size limit
+- [ ] Each image uses 10 words or fewer of text
+- [ ] Images/PDFs are original/owned assets
+- [ ] Image and PDF filenames use relevant keywords before upload
 - [ ] PDF first three pages sell the offer clearly
+- [ ] PDF Page 1 clearly labels the report as sample/illustrative
+- [ ] PDF Page 2 shows executive summary quality
+- [ ] PDF Page 3 shows priority action plan, preferably with effort/impact matrix
 - [ ] PDF does not contain fake client claims
 - [ ] PDF clearly fictional/anonymized as appropriate
 - [ ] No outcome guarantees in images/PDF/video
+- [ ] No QR codes
+- [ ] No external URLs
+- [ ] No SearchClarity.co URL in launch images or sample PDF preview pages
+- [ ] No contact information
+- [ ] No fake Fiverr badges, fake ratings, or fake trust seals
+- [ ] No stock-photo sludge
+
+### Fiverr Gallery Intro Video Decision Checkpoint
+
+A Fiverr gallery intro video may become the primary cover media in Fiverr search/results. Do not upload a video unless it is more polished than Image 1.
+
+This is separate from a customer-specific report walkthrough deliverable.
+
+If used:
+
+- [ ] Target 40-50 seconds
+- [ ] Stay within Fiverr video limits verified in live UI
+- [ ] Show the Maplewood sample report, not vague marketing fluff
+- [ ] Use no contact information, external URLs, or guarantee language
+- [ ] Use captions or clear on-screen text
+- [ ] Keep it separate from customer report walkthrough deliverables
 
 ---
 
@@ -271,6 +328,7 @@ Asset checks:
 Before clicking Publish:
 
 - [ ] UI verification log updated
+- [ ] manual UI verification checklist completed or blockers recorded
 - [ ] outcome-guarantee language policy checked
 - [ ] pricing source of truth checked
 - [ ] sample PDF ready
@@ -283,6 +341,7 @@ After clicking Publish:
 
 - [ ] Record publish date
 - [ ] Record gig URL
+- [ ] Record whether launch is image/PDF-only or includes video
 - [ ] Record review status
 - [ ] Record whether video is pending review
 - [ ] Record any Fiverr warnings/rejections
@@ -299,9 +358,11 @@ Track for first 30 days:
 - messages
 - buyer questions
 - revisions
+- correction events
 - cancellation/dispute issues
 - review feedback
 - delivery friction
+- gallery asset performance signals if visible
 
 Do not edit the gig casually.
 
@@ -325,6 +386,8 @@ This checklist does not:
 
 - Will Fiverr enforce a category-specific minimum price?
 - What exact standardized fields appear in the Etsy subcategory?
-- Does Fiverr accept all 8 buyer requirements cleanly?
+- Does Fiverr accept the ideal buyer requirement set cleanly?
+- What is the real requirement prompt/answer character limit?
 - Is video worth producing for launch, or after the sample PDF is complete?
-- Should the check-in extra be included from day one?
+- Does an uploaded video become the current search/gallery cover in the live Fiverr UI?
+- What package description character limit appears in the live editor?

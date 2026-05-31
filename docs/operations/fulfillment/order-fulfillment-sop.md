@@ -10,6 +10,8 @@ draft
 
 This SOP defines the general SearchClarity order fulfillment workflow for paid report services.
 
+SOP means Standard Operating Procedure: a written step-by-step process for how work should be done consistently.
+
 It is channel-neutral. Fiverr-specific steps belong in:
 
 ```text
@@ -26,6 +28,8 @@ This SOP should be usable for Fiverr, Upwork, direct website orders, and future 
 No customer-facing report is delivered until intake is complete, scope is confirmed, QC is passed, and delivery materials are prepared.
 ```
 
+No customer-facing delivery should be sent without human approval.
+
 ---
 
 ## Standard Fulfillment Flow
@@ -34,15 +38,18 @@ No customer-facing report is delivered until intake is complete, scope is confir
 order/request received
 -> intake reviewed
 -> scope confirmed
+-> internal work packet created
 -> research/observations completed
 -> report drafted
 -> QC completed
 -> final deliverable exported
+-> optional video walkthrough prepared if active for the package/channel
 -> delivery message prepared
 -> delivery sent
--> revision handled if needed
+-> revision or correction handled if needed
 -> records updated
 -> raw signal captured if relevant
+-> lessons learned captured
 -> order closed
 ```
 
@@ -79,7 +86,11 @@ Review:
 - purchased package scope
 - target buyer context
 - product/category context
+- main audit goal
+- biggest buyer concern if provided
 - optional screenshots/files
+- optional current title/tags if provided
+- optional competitor/context links if provided
 - any stated buyer goals
 - any red flags
 
@@ -90,6 +101,7 @@ Checks:
 - no credentials requested
 - no private customer/buyer data accidentally submitted
 - buyer is not asking for guaranteed ranking, sales, or platform manipulation
+- buyer is not asking for trademark-risky keyword bait
 
 If intake is incomplete:
 
@@ -117,6 +129,7 @@ Confirm:
 - revision count
 - expected delivery date
 - out-of-scope requests
+- whether optional video walkthrough is active for the package/channel
 
 If buyer requests extra work, decide whether to:
 
@@ -124,6 +137,16 @@ If buyer requests extra work, decide whether to:
 - offer paid add-on/custom offer
 - decline as out of scope
 - recommend a separate service
+
+Potential separate service recommendations may include:
+
+- Etsy Title and Tag Rewrite
+- Etsy Keyword Research Pack
+- Etsy Shop Visibility Report
+- Etsy Competitor Visibility Observations Report
+- 60-90 Day Post-Implementation Visibility Review
+
+These should only be offered if the service exists, is scoped, and is allowed by the channel.
 
 Output:
 
@@ -133,7 +156,42 @@ scope locked
 
 ---
 
-## Stage 4 - Research And Observations
+## Stage 4 - Internal Work Packet
+
+Before research begins, create a short internal work packet.
+
+The work packet should summarize:
+
+- order/channel ID
+- service/package tier
+- due date
+- URLs in scope
+- buyer's main audit goal
+- target buyer
+- product/category context
+- biggest concern if provided
+- optional screenshots/title/tags provided
+- optional competitor/context links provided
+- known out-of-scope requests
+- delivery requirements
+- QC risks or red flags
+
+Purpose:
+
+- gives the analyst/operator a clean starting point
+- improves consistency
+- supports future agent-assisted workflows
+- creates a clear handoff object without making Neon Ronin a dependency
+
+Output:
+
+```text
+internal work packet ready
+```
+
+---
+
+## Stage 5 - Research And Observations
 
 Perform the service-specific review.
 
@@ -155,6 +213,12 @@ Record observations in a way that separates:
 - reusable/generalized market observations
 - raw signals that might be captured later
 
+Customer-specific notes feed the customer report.
+
+Generalized observations may become raw signals.
+
+Raw signals must not include customer identity, customer URLs, order details, or private customer-specific strategy.
+
 Output:
 
 ```text
@@ -163,7 +227,7 @@ research notes / observation notes complete
 
 ---
 
-## Stage 5 - Draft Report
+## Stage 6 - Draft Report
 
 Use the correct service template.
 
@@ -188,6 +252,28 @@ Draft report must include:
 - caveats
 - next steps
 
+Useful visuals may be included when they improve buyer understanding.
+
+Recommended launch baseline visuals for the Etsy Listing Visibility Audit:
+
+- effort/impact priority matrix
+- listing clarity scorecard
+- keyword/theme coverage table
+- before/after title structure example
+
+Other possible report visuals include:
+
+- recommendation priority matrix
+- competitor comparison table
+- before/after structure comparison
+- action plan timeline
+
+Visuals must explain observations. They must not imply fake ranking, traffic, sales, or certainty.
+
+Visual labels should use plain language such as `observed`, `estimated`, or `SearchClarity estimate` when appropriate.
+
+Do not include glossary/resource links in launch reports until SearchClarity.co pages are live, stable, and QC-approved.
+
 Output:
 
 ```text
@@ -196,7 +282,7 @@ draft report ready for QC
 
 ---
 
-## Stage 6 - QC Review
+## Stage 7 - QC Review
 
 Use:
 
@@ -208,12 +294,14 @@ Use:
 QC must check:
 
 - package scope satisfied
+- required package sections included
 - no outcome guarantees
 - no fake precision
 - recommendations are actionable
 - caveats present
 - customer information handled safely
 - trademark/IP-risky suggestions avoided
+- visuals/graphs clarify findings without fake certainty
 - formatting is professional
 - report file opens correctly
 
@@ -231,7 +319,7 @@ QC passed / QC failed with required fixes
 
 ---
 
-## Stage 7 - Final Deliverable Export
+## Stage 8 - Final Deliverable Export
 
 Prepare final deliverable.
 
@@ -240,10 +328,14 @@ Checks:
 - correct filename
 - correct version
 - PDF opens
-- links, tables, and headings render correctly
-- page count roughly matches package promise
+- links, tables, visuals, and headings render correctly
+- required sections for the purchased package are present
 - file size is acceptable for channel
 - no draft comments remain
+
+Do not rely on public page-count promises unless they are deliberately approved in the offer spec and pricing source of truth.
+
+Customer-facing sample/gallery files should be named with relevant keywords before Fiverr upload.
 
 Output:
 
@@ -253,7 +345,54 @@ final deliverable ready
 
 ---
 
-## Stage 8 - Delivery Message
+## Optional Future Stage - Video Walkthrough
+
+This stage applies only if a short video report walkthrough is active for the package and channel.
+
+Current default:
+
+```text
+future / conditional
+```
+
+A video walkthrough is a recorded explanation of the report findings. It is not coaching.
+
+Required steps if active:
+
+1. Create a short recording outline or talking-point script from the final report.
+2. Human review the outline for clarity, scope, and claim safety.
+3. Record the walkthrough.
+4. Generate an internal transcript.
+5. Review the transcript for risky claims, contradictions, unclear statements, and privacy issues.
+6. Confirm captions are available or provide an equivalent accessible text option.
+7. Record the video delivery reference.
+
+Customer receives:
+
+```text
+video link or file, if included in the package/channel
+```
+
+SearchClarity keeps internally:
+
+```text
+video outline / talking points
+final transcript
+transcript QC note
+video delivery reference
+```
+
+The transcript is internal by default unless a customer-facing transcript option is intentionally offered later.
+
+Output:
+
+```text
+video walkthrough ready / video walkthrough not applicable
+```
+
+---
+
+## Stage 9 - Delivery Message
 
 Delivery message should include:
 
@@ -279,7 +418,7 @@ delivery message ready
 
 ---
 
-## Stage 9 - Delivery
+## Stage 10 - Delivery
 
 Deliver through the correct channel.
 
@@ -293,6 +432,7 @@ Record:
 - delivered file/version
 - delivery message used
 - channel/order ID
+- video delivery reference if applicable
 
 Output:
 
@@ -302,22 +442,29 @@ order delivered
 
 ---
 
-## Stage 10 - Revisions
+## Stage 11 - Revisions And Corrections
+
+A customer revision is a buyer-requested clarification or adjustment within the original scope.
+
+A SearchClarity correction is a fix for a SearchClarity mistake.
+
+SearchClarity corrections do not count against the buyer's included revision count.
+
+### Customer Revisions
 
 If revision is requested:
 
 1. Read the request fully.
 2. Decide whether it is in scope.
 3. If in scope, revise and redeliver.
-4. If out of scope, explain politely and offer appropriate next step.
+4. If out of scope, explain politely and offer appropriate next step if one exists.
 5. Record revision reason and outcome.
 
 In-scope revision examples:
 
-- correcting unclear wording
-- clarifying a recommendation
-- fixing missing listing covered by package
-- correcting a formatting/export issue
+- clarifying unclear wording
+- explaining a recommendation more clearly
+- adjusting wording within the originally purchased scope
 
 Out-of-scope examples:
 
@@ -325,17 +472,29 @@ Out-of-scope examples:
 - implementing changes inside Etsy
 - rewriting entire listings unless purchased
 - providing guaranteed ranking plan
-- ongoing strategy support
+- ongoing strategy support or coaching
+- adding new competitor research beyond package scope
+
+### SearchClarity Corrections
+
+Correction examples:
+
+- wrong listing reviewed
+- promised section missing
+- PDF export broken
+- incorrect URL/reference
+- formatting issue that makes the report hard to read
+- typo/error that changes meaning
 
 Output:
 
 ```text
-revision completed / revision declined as out of scope / custom follow-up offered
+revision completed / correction completed / revision declined as out of scope / custom follow-up offered
 ```
 
 ---
 
-## Stage 11 - Records Update
+## Stage 12 - Records Update
 
 After delivery and/or completion, update records:
 
@@ -344,6 +503,8 @@ After delivery and/or completion, update records:
 - QC status
 - delivery date
 - revision status
+- correction status if any
+- video delivery reference if any
 - buyer feedback if any
 - raw signals captured if any
 - consent status if any public use is requested
@@ -356,7 +517,7 @@ order record updated
 
 ---
 
-## Stage 12 - Raw Signal Capture
+## Stage 13 - Raw Signal Capture
 
 If the report surfaced a generalizable pattern, log a raw market signal.
 
@@ -384,17 +545,47 @@ raw signal logged / no signal captured
 
 ---
 
-## Stage 13 - Order Closeout
+## Stage 14 - Lessons Learned
+
+Before closing, capture any useful operational notes.
+
+Questions:
+
+- What slowed fulfillment?
+- What confused the buyer?
+- What should be improved in the template, intake, QC, or delivery message?
+- Did any report section feel weak or unnecessary?
+- Did any visual/graph help or confuse the report?
+- Did any future service opportunity appear?
+- Did any raw signal candidate appear?
+
+Purpose:
+
+- improve future reports
+- improve templates
+- improve companion gig planning
+- support later Neon Ronin onboarding evidence
+
+Output:
+
+```text
+lessons learned captured / no lessons learned
+```
+
+---
+
+## Stage 15 - Order Closeout
 
 Before closing:
 
 - [ ] report delivered
 - [ ] QC passed
 - [ ] delivery record updated
-- [ ] revision status known
+- [ ] revision/correction status known
 - [ ] raw signal capture reviewed
 - [ ] consent status recorded if relevant
 - [ ] customer follow-up action noted if needed
+- [ ] lessons learned captured
 
 Output:
 
@@ -414,6 +605,7 @@ This SOP does not:
 - define agent automation
 - define database implementation
 - authorize off-platform delivery
+- authorize autonomous customer delivery
 
 ---
 
@@ -424,6 +616,8 @@ Update this SOP after:
 - first complete mock order
 - first paid order
 - first revision request
+- first SearchClarity correction
 - first cancellation/dispute
 - first direct website order
+- first video walkthrough test
 - any major channel policy change
